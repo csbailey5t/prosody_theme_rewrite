@@ -41,21 +41,19 @@ function prosody_queue_scripts ()
         false
         );
 
-    wp_enqueue_script(
+    wp_register_script(
         'prosody-jquery',
-        '//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
-        array(),
-        null,
-        false
+        get_template_directory_uri().'/js/jquery-3.3.1.min.js',
+        array('jquery'), null, false
         );
+    wp_enqueue_script('prosody-jquery');
 
-    wp_enqueue_script(
+    wp_register_script(
         'prosody-jquery-ui',
-        '//ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js',
-        array('prosody-jquery'),
-        null,
-        false
+        get_template_directory_uri().'/js/jquery-ui-1.12.1.min.js',
+        array(), null, false
         );
+    wp_enqueue_script('prosody-jquery-ui');
 
     if ( is_front_page() ) {
       wp_enqueue_script(
