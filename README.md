@@ -1,3 +1,5 @@
+The project is not actively maintained or developed by Scholars' Lab, but anyone should feel free to fork the project and work on it. Pull requests are accepted.
+
 ### Development Environment
 
 - Developed locally with MAMP 3.2.1 running PHP 5.6.7, node 0.12.7, npm 2.12.1
