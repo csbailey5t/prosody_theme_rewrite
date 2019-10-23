@@ -205,6 +205,12 @@ button {
 .prosody-note-button {
   display: none;
 }
+@media screen and (max-width:767px){
+    #sidebar {
+        margin-top: 80px;
+    }
+
+}
 #sidebar h2 {
   background: url("../images/bg_hdr_sidebar.gif") top left 70% no-repeat;
   font: 2.5em Georgia, "Times New Roman", Times, serif;
