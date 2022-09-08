@@ -168,8 +168,7 @@ small.date {
   vertical-align: middle;
 }
 div.prosody-shadowline {
-  display: table-row;
-  height: 18px;
+  display: flex;
 }
 span:hover {
   background: #444;
